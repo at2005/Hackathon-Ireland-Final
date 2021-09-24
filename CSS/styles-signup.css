@@ -1,0 +1,224 @@
+
+* {
+    font-family: Arial;
+    transition-duration:250ms;
+
+}
+
+body {
+    background-color: rgb(97, 97, 194);
+    width: 100%;
+    margin: 0;
+
+
+}
+
+
+
+.form {
+
+    padding-top: 20px;
+    margin: 75px auto;
+    margin-top: 120px;
+    height: 625px;
+    width: 500px;
+    background-color: hsl(0,10%,100%);
+    box-shadow: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+
+input {
+    outline: none;
+    position: relative;
+    margin: 20px;
+    margin-left: 85px;
+    margin-top: 5px;
+    border: 2px solid #42f587/*rgb(16, 180, 57)*/;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-size:14px;
+    border-radius: 22px;
+    box-sizing: border-box;
+    width: 325px;
+    bottom: 40px;
+
+
+
+}
+
+#header {
+    width: 240px;
+    position: relative;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    bottom: 45px;
+    font-size: 24px;
+    border-bottom: 2px solid #42f587/*rgb(16, 180, 57)*/;
+}
+
+
+
+#button {
+
+    position: relative;
+    height: 35px;
+    width: 150px;
+    text-align: centre;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #42f587/*rgb(16, 180, 57)*/;
+    border-radius: 0;
+    margin-left: 175px;
+    background: white;
+    margin-top: 30px;
+    bottom: 85px;
+
+
+}
+
+
+#button:hover {
+
+    background-color: rgb(36, 100, 36);
+    border: 2px solid rgb(36, 100, 36);
+    color: white;
+    transform: scale(1.1);
+
+
+
+
+}
+
+
+h1.title {
+    position: relative;
+    bottom: 125px;
+    margin: -10px;
+    width: 100%;
+    padding: 20px;
+    float: left;
+    height: 65px;
+   z-index: 1;
+    background-color: hsl(0,10%,100%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+#login {
+    color: black;
+    margin-left: 260px;
+    font-size: 14px;
+    position: relative;
+    bottom: 85px;
+
+}
+
+#login:hover {
+    color: rgb(0, 85, 51);
+    font-weight: 500;
+}
+
+
+
+#box {
+
+    height: 20px;
+    width: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    margin-right: 0;
+    background-color: white;
+
+
+
+}
+
+#tc {
+    position: relative;
+    bottom: 75px;
+
+    font-size: 14px;
+    margin-left: 120px;
+
+
+
+}
+
+#tcLink {
+
+    font-style: italic;
+    color: rgb(0, 85, 51);
+
+}
+
+
+
+
+#male {
+
+    position: relative;
+    width: 15px;
+    height: 15px;
+    bottom: 25px;
+
+
+
+}
+
+
+#female {
+
+    width: 15px;
+    height: 15px;
+    bottom: 25px;
+    right: 35px;
+
+
+
+}
+
+
+#other {
+    margin: 0;
+    position: relative;
+
+
+    width: 15px;
+    height: 15px;
+    bottom: 25px;
+
+
+
+}
+
+label {
+
+        font-size: 16px;
+        bottom: 27.5px;
+        position: relative;
+        right: 16px;
+}
+
+
+#flabel {
+    position: relative;
+    right: 50px;
+}
+
+
+#olabel {
+    left: 5px;
+
+
+}
+
+
+#bd {
+    width: 150px;
+}

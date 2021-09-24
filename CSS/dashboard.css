@@ -1,0 +1,39 @@
+* {
+    /* transition-duration: 2ms; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+body {margin: 0;}
+.container {
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+    grid-auto-rows: 100px;
+    grid-row-gap: 0;
+}
+
+.links {
+    padding:none;
+    margin: none;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    background-color: rgb(255, 255, 255);
+    border-right: 2px solid #42f587;
+
+   
+   
+}
+
+
+.content {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end:7;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+#Branches:hover, #Events:hover, #Finances:hover, #Chat:hover, #Dashboard:hover {
+    color:#42f587;
+    
+}
