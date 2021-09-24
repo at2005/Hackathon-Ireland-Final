@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/organization.css">
+    </head>
+    <body>
+        <form method="POST" action="create_organization.php" class="form">
+            <h1 id="header">Create a Cause</h1>
+            <!-- <label name="organization_name">Organization Name:</label> -->
+            <br>
+            <input type="text" name="organization_name" placeholder="Cause Name"></input>
+            <br>
+            <!-- <label name="max_capital">Max Capital</label> -->
+            <br> 
+            <input type="number" step="0.01" name="max_capital" placeholder="Max Capital"></input>
+            <br>
+            <!-- <label name="organization_info" pal>Organization Info:</label> -->
+            <br> 
+            <textarea cols="16" rows="4" name="organization_info" placeholder="Cause Info"></textarea>
+            <br>
+            <button type="submit" id="button">Create</button>
+        </form>
+    </body>
+</html>
